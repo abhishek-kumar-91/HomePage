@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outerBox{
+    position: fixed;
+    overflow: scroll;
+    width: 437px;
+    height: 100vh;
+   margin-top: 70px;
+    border: 2px solid black;
+    background: linear-gradient(to bottom, #FCEFDA 0%, #D6FEDD 100%);
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #FCEFDA 0%, #D6FEDD 100%);
+    border: 0px, 2px, 0px, 0px;
+    padding-bottom: 40px;
+}
+
+.filter{
+    width: 100%;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+
+}
+.filter p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 29.26px;
+}
+
+.filter img{
+    width: 24px;
+    height: 24px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 190px;
+   padding: 20px;
+   row-gap: 10px;
+   border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.row{
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.row button{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 500;
+    width: 181px;
+    height: 64px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+   outline: none;
+   border: 4px solid rgba(255, 255, 255, 0.2);
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn1{
+    background: linear-gradient(to right, #FFA800 0%, #2E1CFF 100%);
+    
+}
+.btn1 img{
+    width: 32px;
+    height: 32px;
+}
+
+.btn2{
+    background: linear-gradient(to right, #8DBD25 0%, #14A872 100%);
+}
+
+.btn2 img{
+    width: 21px;
+    height: 29.33px;
+}
+
+.btn3{
+    background: linear-gradient(to right, #D186FF 0%, #FF6F07 100%);
+}
+.btn3 img{
+    width: 32px;
+    height: 32px;
+}
+
+.btn4{
+    background: linear-gradient(to right, #5200FF 0%, #FF0000 40%, #0038FF 100%);
+
+}
+
+.btn4 img{
+    width: 32px;
+    height: 32px;
+}
+.dropDown{
+    width: 100%;
+    height: 190px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.dropDown select{
+    width: 100%;
+    height: 68px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 34px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    text-transform: uppercase;
+}
+
+
+.sticker{
+    width: 100%;
+    padding: 20px;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scroll-container {
+    scrollbar-width: none; /* Firefox */
+  }

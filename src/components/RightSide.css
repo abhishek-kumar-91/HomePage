@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rightBox{
+    left: 437px;
+    position: sticky;
+    width: calc(100% - 437px);
+    margin-top: 70px;
+    height: 100vh;
+    background: linear-gradient(to bottom, #FDEFDA 0%, #D6FEDD 100%);
+    display: flex;
+  gap: 20px;
+}
+
+
+.box {
+    padding-top: 50px;
+    width: 33%; 
+    height: auto; 
+    
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+.box img{
+    width: 100%;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll-container {
+    scrollbar-width: none; /* Firefox */
+  }

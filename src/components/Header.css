@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbarContainer{
+    background-image: url("../assets/bg.png");
+    width: 100vw;
+    height: 70px;
+    background-position: top;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 173px;
+    height: 60px;
+    gap: 16px;
+}
+.logo img{
+    width: 36px;
+    height: 60px;
+}
+.logo h3{
+    font-weight: 500;
+    font-size: 31.43px;
+    line-height: 38.66px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 693px;
+    height: 30px;
+    gap: 96px;
+}
+.navigation h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29.52px;
+    text-transform: uppercase;
+}
+.btnNavbar{
+    width: 152px;
+    height: 57px;
+    border-radius: 26px;
+    border: 2px solid #C58F59;
+    padding:16px, 32px, 16px, 32px;
+    background: linear-gradient(to bottom, #ECD380 0%, #C18755 100%, #F9E48B 100%);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.24);
+}
+
+.text-gradient{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.6px;
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #CBCBCB 50%, #684B00 100%);
+    -webkit-background-clip: text; /* For webkit browsers */
+    background-clip: text;
+    color: transparent;
+}
+
+.inputBox{
+    width: 471px;
+    display: flex;
+    align-items: center;
+}
+.inputBox img{
+    position: relative;
+    left: 48px;
+    width: 30.8px;
+    height: 30.8px;
+}
+.inputBox input{
+    background: #ffffff27;
+    width: 80%;
+    height: 60px;
+    border-radius: 81px;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    padding-left: 50px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29.52px;
+}
