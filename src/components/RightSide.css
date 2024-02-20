@@ -12,12 +12,13 @@
     height: 100vh;
     background: linear-gradient(to bottom, #FDEFDA 0%, #D6FEDD 100%);
     display: flex;
+    padding: 30px;
   gap: 20px;
 }
 
 
 .box {
-    padding-top: 50px;
+    
     width: 33%; 
     height: auto; 
     
